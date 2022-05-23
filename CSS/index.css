@@ -1,0 +1,445 @@
+
+/*@media only screen and (max-width: 1200px)*/
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .cultura-section {
+    display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        grid-area: cultura;
+        width: 100%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+     /*MODIFICACIONES*/
+
+      .img-header{
+          width: 120px;
+      }
+
+    header {
+       display: flex;
+       justify-content: space-around;
+       grid-area: header;
+        
+    }
+
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    nav ul li{
+        list-style: none;
+        margin-right: 24px;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: #265F2D;
+        font-family: major mono display;
+        text-transform: lowercase;
+    }
+
+    .img-main{
+        width: 1220px;
+        grid-area: img-main;
+    }
+
+    .cultura-section{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        grid-area: cultura;
+        width: 100%;
+    }
+
+    .section-title{
+        margin: 25px;
+        text-align: left;
+    }
+
+    .comportamientos{
+        display: flex;
+        justify-content: space-between;
+        grid-area: comportamientos;
+        background-color: #f6aa85;
+    }
+
+    .insumos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        grid-area: insumos;
+        height: 624px;
+        width: 100%;
+    }
+
+   .header{
+         grid-area: header;
+   }
+
+    .container-index {
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 0.5fr 2fr 2fr 2fr 0.5fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "header header header"
+          "cultura cultura img-main"
+          "comportamientos comportamientos comportamientos"
+          "insumos insumos insumos"
+          "footer footer footer"; 
+    }
+
+    /*-----------------------------*/
+
+    .conteiner-recetas {
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 0.5fr 2fr 2fr 2fr 2fr 0.5fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "header header header"
+          "regla5 regla5 regla5"
+          "toptrend toptrend toptrend"
+          "guiso guiso guiso"
+          "postres postres postres"
+          "footer footer footer"; 
+    }
+    
+    .regla5-title{
+        text-align: left;
+        margin: 25px;
+    }
+    .regla5 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        grid-area: regla5;
+        width: 100%;
+    }
+
+    .toptrend {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        grid-area: toptrend;
+        width: 100%;
+    }
+    .guiso {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        grid-area: guiso;
+        width: 100%; 
+    }
+    .postres {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        grid-area: postres;
+        width: 100%;
+    }
+    .img__recetas {
+        height: 624px;
+    }
+
+     /*-----------------------------*/
+
+     .conteiner-referentes {
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 0.5fr 2fr 2fr 2fr 0.5fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "header header header"
+          "itamae itamae itamae"
+          "referentes referentes referentes"
+          "reseña reseña reseña"
+          "footer footer footer"; 
+    }
+    .itamae {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        grid-area: itamae;
+        width: 100%;
+    }
+    .referentes {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        grid-area: toptrend;
+        width: 100%;
+    }
+    .reseña {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        grid-area: reseña;
+        width: 100%;
+    }
+    .img__referentes {
+        height: 646px;
+        width: 936px;
+    }
+
+     /*-----------------------------*/
+
+     .conteiner-eventos {
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 0.5fr 2fr 2fr 1fr 0.5fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "header header header"
+          "celebra celebra celebra"
+          "eventos eventos eventos"
+          "insta insta insta"
+          "footer footer footer"; 
+    }
+    .celebra {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        grid-area: celebra;
+        width: 100%;
+    }
+    .eventos {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        grid-area: eventos;
+        width: 100%;
+        background-color: #f6aa85;
+    }
+    .insta {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        grid-area: insta;
+        width: 100%;
+    } 
+    .img__eventos {
+        height: 886px;
+        width: 1304px;
+    }
+
+     /*-----------------------------*/
+
+     .conteiner-nosotros {
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 0.5fr 2fr 2fr 2fr 0.5fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "header header header"
+          "takai takai takai"
+          "marca news news"
+          "servicios news news"
+          "footer footer footer"; 
+    }
+    .takai {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        grid-area: takai;
+        width: 100%;
+    }
+    .marca {
+        grid-area: marca;
+    } 
+    .servicios {
+        grid-area: servicios;
+    }
+    .news {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        grid-area: news;
+        width: 50%;
+    }
+
+
+    
+
+    h1 {
+        color: black;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 55px;
+        font-family: major mono display;
+        text-transform: lowercase;
+        width: 432px;
+    }
+    p { 
+        color:  black;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: open sans;
+        text-transform: capitalize;   
+        display: inline-block;
+        width: 432px;
+    }
+
+    /*SECTION*/
+    .box__image--icon {
+        height: 128px;
+        width: 128px;
+        display: inline-block;
+        padding: 24px 144px 0px 144px;
+        border-width: 24px;
+    }
+    .box__conteiner--destacado {
+        background-color: #f6aa85;
+        height: 588px;
+    }
+
+    /*SECTION CAROUSELES*/
+    h2 {
+        color: black;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 36px;
+        font-family: major mono display;
+        text-transform: lowercase;
+    }
+
+    .box__conteiner--notrounded {
+        background-color: #fde7da;
+        height: 612px;
+        width: 890px;
+    }
+
+    /*.box__button {
+        height: 48px;
+        width: 48px;
+        color: white;
+    }*/
+
+    .box__conteiner {
+        background-color: #fde7da;
+        border-radius: 40px;
+        height: 612px;
+        width: 432px;
+    }
+    .box__image {
+        border-radius: 40px;
+        height: 432px;
+        width: 432px;
+    }
+    .box__info {
+    padding: 24px;
+    }
+
+    .box__title {
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        font-family: open sans;
+        text-transform: capitalize;
+        padding: 0px 48px;
+    }
+    .box__title--destacado {
+        background-color: #fde7da;
+        border-radius: 40px;
+        height: 72px;
+        width: 202px;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        font-family: open sans;
+        text-transform: capitalize;
+        padding: 0px 48px;
+    }
+    .box__description {
+        color:  black;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: open sans;
+        text-transform: capitalize;
+        width: 338px;
+        padding: 0px 48px;
+    }
+
+    .text__list {
+        list-style-type: none;
+        color:  black;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: open sans;
+        text-transform: capitalize;
+        display: block;
+        width: 432px;
+    }
+    .bordesredondeadosdestacados {
+        border-radius: 40px;
+        height: 288px;
+        width: 428px;
+    }
+
+    .sushiballs--format {
+        border-radius: 328px;
+        height: 480px;
+        width: 718px;
+    }
+
+    .box__image--large {
+        border-radius: 40px;
+        height: 288px;
+        width: 428px;
+    }
+
+
+
+
+    /*FOOTER*/
+    footer {
+        background-color: #e95761;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        grid-area: footer;
+        height: 288px;
+    }
+    .footerdata {   
+        grid-area: footerdata;
+        text-align: center;
+    }
+    .footer__title {
+        color: white;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 36px;
+        font-family: major mono display;
+        text-transform: lowercase;
+    }
+    .footer__contact {
+        color:  white;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        font-family: open sans;
+        text-transform: capitalize;
+    }
+    .redes {
+        height: 88px;
+        width: 228px;
+        align-items: center;
+    }
