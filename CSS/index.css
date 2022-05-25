@@ -324,8 +324,70 @@
         width: 428px;
     }
 
+    .animate_box-l {
+        background-color: white;
+        border-radius: 40px;
+        height: 800px;
+        width: 432px;
+    }
+    .animate_box-l:hover {
+       transform-origin: 0 100% 0;
+        scale: 2;
+       transition: all 3s linear;
+    }
+    .animate_box-m {
+        background-color: white;
+        border-radius: 40px;
+        height: 800px;
+        width: 432px;
+    }
+    .animate_box-m:hover {
+        scale: 2;
+       transition: all 3s linear;
+    }
+    .animate_box-r {
+        background-color: white;
+        border-radius: 40px;
+        height: 800px;
+        width: 432px;
+    }
+    .animate_box-r:hover {
+       transform-origin: 100% 0 0;
+        scale: 2;
+       transition: all 3s linear;
+    }
 
+    .animate_resto {
+        height: 612px;
+        width: 432px;
+    }
+    .animate_resto:hover {
+       transform-origin: 100% 0 0;
+       rotate: y 45deg;
+       transition: all 3s linear;
+    }
 
+    .animate_list {
+        height: 612px;
+        width: 432px;
+    }
+    .animate_list:hover {
+        transform-origin: 0 100% 0;
+       rotate: x 45deg;
+       transition: all 3s linear;
+    }
+
+    .animate_agenda {
+        height: 288px;
+        width: 428px;
+    }
+    .animate_agenda:hover {
+        transform-origin: 0 100% 0;
+       rotate: 45deg;
+       transition: all 3s linear;
+    }
+
+    
 
     /*FOOTER*/
     footer {
