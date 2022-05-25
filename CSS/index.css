@@ -1,26 +1,4 @@
-
-/*@media only screen and (max-width: 1200px)*/
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .cultura-section {
-    display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        grid-area: cultura;
-        width: 100%;
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
-     /*MODIFICACIONES*/
+/*MODIFICACIONES*/
 
       .img-header{
           width: 120px;
@@ -28,9 +6,7 @@
 
     header {
        display: flex;
-       justify-content: space-around;
-       grid-area: header;
-        
+       justify-content: space-around; 
     }
 
     nav ul{
@@ -52,16 +28,14 @@
     }
 
     .img-main{
-        width: 1220px;
-        grid-area: img-main;
+        width: 100%;
     }
 
     .cultura-section{
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        grid-area: cultura;
-        width: 100%;
+        
     }
 
     .section-title{
@@ -70,85 +44,66 @@
     }
 
     .comportamientos{
-        display: flex;
-        justify-content: space-between;
-        grid-area: comportamientos;
+        display: grid; 
+        grid-auto-rows: 22rem;
+        grid-template-columns: repeat(auto-fill, minmax(35rem, 3fr)); 
+        gap: 1rem; 
         background-color: #f6aa85;
     }
+
+    
 
     .insumos{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        grid-area: insumos;
-        height: 624px;
+    
         width: 100%;
     }
 
-   .header{
-         grid-area: header;
-   }
+  
 
-    .container-index {
-        display: grid; 
-        grid-template-columns: 1fr 1fr 1fr; 
-        grid-template-rows: 0.5fr 2fr 2fr 2fr 0.5fr; 
-        gap: 0px 0px; 
-        grid-template-areas: 
-          "header header header"
-          "cultura cultura img-main"
-          "comportamientos comportamientos comportamientos"
-          "insumos insumos insumos"
-          "footer footer footer"; 
-    }
+    
 
     /*-----------------------------*/
 
-    .conteiner-recetas {
-        display: grid; 
-        grid-template-columns: 1fr 1fr 1fr; 
-        grid-template-rows: 0.5fr 2fr 2fr 2fr 2fr 0.5fr; 
-        gap: 0px 0px; 
-        grid-template-areas: 
-          "header header header"
-          "regla5 regla5 regla5"
-          "toptrend toptrend toptrend"
-          "guiso guiso guiso"
-          "postres postres postres"
-          "footer footer footer"; 
-    }
     
     .regla5-title{
         text-align: left;
         margin: 25px;
     }
-    .regla5 {
+    
+    .regla5{
+        background-image: url("/IMGS/mancha\ 2\ recetas.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .regla5-section{
         display: flex;
-        justify-content: space-around;
         flex-wrap: wrap;
-        grid-area: regla5;
-        width: 100%;
+        justify-content: space-between;
     }
 
     .toptrend {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        grid-area: toptrend;
+        
         width: 100%;
     }
     .guiso {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        grid-area: guiso;
+      
         width: 100%; 
     }
     .postres {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        grid-area: postres;
+        
         width: 100%;
     }
     .img__recetas {
@@ -157,37 +112,26 @@
 
      /*-----------------------------*/
 
-     .conteiner-referentes {
-        display: grid; 
-        grid-template-columns: 1fr 1fr 1fr; 
-        grid-template-rows: 0.5fr 2fr 2fr 2fr 0.5fr; 
-        gap: 0px 0px; 
-        grid-template-areas: 
-          "header header header"
-          "itamae itamae itamae"
-          "referentes referentes referentes"
-          "reseña reseña reseña"
-          "footer footer footer"; 
-    }
+    
     .itamae {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        grid-area: itamae;
+        
         width: 100%;
     }
     .referentes {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        grid-area: toptrend;
+        
         width: 100%;
     }
     .reseña {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        grid-area: reseña;
+        
         width: 100%;
     }
     .img__referentes {
@@ -197,30 +141,19 @@
 
      /*-----------------------------*/
 
-     .conteiner-eventos {
-        display: grid; 
-        grid-template-columns: 1fr 1fr 1fr; 
-        grid-template-rows: 0.5fr 2fr 2fr 1fr 0.5fr; 
-        gap: 0px 0px; 
-        grid-template-areas: 
-          "header header header"
-          "celebra celebra celebra"
-          "eventos eventos eventos"
-          "insta insta insta"
-          "footer footer footer"; 
-    }
+     
     .celebra {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        grid-area: celebra;
+        
         width: 100%;
     }
     .eventos {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        grid-area: eventos;
+      
         width: 100%;
         background-color: #f6aa85;
     }
@@ -228,7 +161,7 @@
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        grid-area: insta;
+        
         width: 100%;
     } 
     .img__eventos {
@@ -238,36 +171,21 @@
 
      /*-----------------------------*/
 
-     .conteiner-nosotros {
-        display: grid; 
-        grid-template-columns: 1fr 1fr 1fr; 
-        grid-template-rows: 0.5fr 2fr 2fr 2fr 0.5fr; 
-        gap: 0px 0px; 
-        grid-template-areas: 
-          "header header header"
-          "takai takai takai"
-          "marca news news"
-          "servicios news news"
-          "footer footer footer"; 
-    }
+     
     .takai {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        grid-area: takai;
+        
         width: 100%;
     }
-    .marca {
-        grid-area: marca;
-    } 
-    .servicios {
-        grid-area: servicios;
-    }
+   
+    
     .news {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        grid-area: news;
+        
         width: 50%;
     }
 
@@ -415,11 +333,11 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        grid-area: footer;
+        
         height: 288px;
     }
     .footerdata {   
-        grid-area: footerdata;
+        
         text-align: center;
     }
     .footer__title {
