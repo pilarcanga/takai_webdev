@@ -27,7 +27,7 @@
         text-transform: lowercase;
     }
 
-    .img-main{
+    /*.img-main{
         width: 100%;
     }
 
@@ -36,7 +36,7 @@
         justify-content: space-around;
         flex-wrap: wrap;
         
-    }
+    }*/
 
     .section-title{
         margin: 25px;
@@ -386,7 +386,6 @@
        rotate: 45deg;
        transition: all 3s linear;
     }
-
     
 
     /*FOOTER*/
