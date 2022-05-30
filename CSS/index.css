@@ -43,13 +43,13 @@
         text-align: left;
     }
 
-    .comportamientos{
+    /*.comportamientos{
         display: grid; 
         grid-auto-rows: 22rem;
         grid-template-columns: repeat(auto-fill, minmax(35rem, 3fr)); 
         gap: 1rem; 
         background-color: #f6aa85;
-    }
+    }*/
 
     
 
@@ -126,6 +126,8 @@
         flex-wrap: wrap;
         
         width: 100%;
+
+        background-image: url(../IMGS/mancha\ 3\ referentes.png);
     }
     .reseña {
         display: flex;
@@ -213,13 +215,13 @@
     }
 
     /*SECTION*/
-    .box__image--icon {
+    /*.box__image--icon {
         height: 128px;
         width: 128px;
         display: inline-block;
         padding: 24px 144px 0px 144px;
         border-width: 24px;
-    }
+    }*/
     .box__conteiner--destacado {
         background-color: #f6aa85;
         height: 588px;
@@ -325,7 +327,6 @@
     }
 
     .animate_box-l {
-        background-color: white;
         border-radius: 40px;
         height: 800px;
         width: 432px;
@@ -336,7 +337,6 @@
        transition: all 3s linear;
     }
     .animate_box-m {
-        background-color: white;
         border-radius: 40px;
         height: 800px;
         width: 432px;
@@ -346,7 +346,6 @@
        transition: all 3s linear;
     }
     .animate_box-r {
-        background-color: white;
         border-radius: 40px;
         height: 800px;
         width: 432px;
