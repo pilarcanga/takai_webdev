@@ -1,0 +1,40 @@
+.takai {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    width: 100%;
+}
+
+.img__recetas {
+    height: 624px;
+}
+
+.news {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    width: 50%;
+}
+
+h1 {
+    color: black;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    font-family: major mono display;
+    text-transform: lowercase;
+    width: 432px;
+}
+
+p { 
+    color:  black;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: open sans;
+    text-transform: capitalize;   
+    display: inline-block;
+    width: 432px;
+}

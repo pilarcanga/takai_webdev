@@ -1,0 +1,68 @@
+.animate_box-l {
+    border-radius: 40px;
+        height: 800px;
+        width: 432px;
+    
+    
+    &:hover {
+        transform-origin: 0 100% 0;
+        scale: 2;
+       transition: all 3s linear;
+    }
+    
+    &-m {
+        border-radius: 40px;
+        height: 800px;
+        width: 432px;
+
+        &:hover {
+        scale: 2;
+        transition: all 3s linear;
+        }
+    }
+
+    &-r {
+        border-radius: 40px;
+        height: 800px;
+        width: 432px;
+
+        &:hover {
+        transform-origin: 100% 0 0;
+        scale: 2;
+        transition: all 3s linear;
+        }
+    }
+}
+
+.animate_resto {
+    height: 612px;
+    width: 432px;
+
+    &:hover {
+    transform-origin: 100% 0 0;
+    rotate: y 45deg;
+    transition: all 3s linear;
+    }
+}
+
+.animate_list {
+    height: 612px;
+    width: 432px;
+
+    &:hover {
+    transform-origin: 0 100% 0;
+    rotate: x 45deg;
+    transition: all 3s linear;
+    }
+}
+
+.animate_agenda {
+    height: 288px;
+    width: 428px;
+
+    &:hover {
+    transform-origin: 0 100% 0;
+    rotate: 45deg;
+    transition: all 3s linear;
+    }
+}

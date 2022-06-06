@@ -1,0 +1,86 @@
+.section-title{
+    margin: 25px;
+    text-align: left;
+}
+
+.referentes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    width: 100%;
+
+    background-image: url(../IMGS/mancha\ 3\ referentes.png);
+}
+
+.box__image {
+    border-radius: 40px;
+    height: 432px;
+    width: 432px;
+
+    &__title {
+        background-color: #fde7da;
+        border-radius: 40px;
+        height: 72px;
+        width: 202px;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        font-family: open sans;
+        text-transform: capitalize;
+        padding: 0px 48px;
+    }
+
+    &__description{
+        color:  black;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: open sans;
+        text-transform: capitalize;
+        width: 338px;
+        padding: 0px 48px;
+    }
+}
+
+h2 {
+    color: black;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 36px;
+    font-family: major mono display;
+    text-transform: lowercase;
+}
+
+.reseña {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    width: 100%;
+}
+
+.box__conteiner--notrounded {
+    background-color: #fde7da;
+    height: 612px;
+    width: 890px;
+}
+
+.text__list {
+    list-style-type: none;
+    color:  black;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: open sans;
+    text-transform: capitalize;
+    display: block;
+    width: 432px;
+}
+
+.sushiballs--format {
+    border-radius: 328px;
+    height: 480px;
+    width: 718px;
+}

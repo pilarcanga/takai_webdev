@@ -1,0 +1,25 @@
+.img-header{
+    width: 120px;
+}
+
+header {
+ display: flex;
+ justify-content: space-around; 
+}
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+
+  &li {
+    list-style: none;
+    margin-right: 24px;
+    
+    &a {
+        text-decoration: none;
+        color: #265F2D;
+        font-family: major mono display;
+        text-transform: lowercase;
+    }
+  }
+}

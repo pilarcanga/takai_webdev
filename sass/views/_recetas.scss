@@ -1,0 +1,62 @@
+.section-title{
+    margin: 25px;
+    text-align: left;
+}
+
+.toptrend {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    width: 100%;
+}
+
+.guiso {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+    width: 100%; 
+}
+
+.postres {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    width: 100%;
+}
+
+.box__image {
+    border-radius: 40px;
+    height: 432px;
+    width: 432px;
+
+    &__title--destacado {
+        background-color: #fde7da;
+        border-radius: 40px;
+        height: 72px;
+        width: 202px;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        font-family: open sans;
+        text-transform: capitalize;
+        padding: 0px 48px;
+    }
+
+    &__description{
+        color:  black;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: open sans;
+        text-transform: capitalize;
+        width: 338px;
+        padding: 0px 48px;
+    }
+}
+
+
+

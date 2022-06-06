@@ -1,0 +1,46 @@
+.section-title{
+    margin: 25px;
+    text-align: left;
+}
+
+.insumos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    width: 100%;
+}
+
+.box__conteiner {
+    background-color: #fde7da;
+    border-radius: 40px;
+    height: 612px;
+    width: 432px;
+
+    &__image {
+        border-radius: 40px;
+        height: 432px;
+        width: 432px;
+    }
+
+    &__title {
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        font-family: open sans;
+        text-transform: capitalize;
+        padding: 0px 48px;
+    }
+
+    &__description{
+        color:  black;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: open sans;
+        text-transform: capitalize;
+        width: 338px;
+        padding: 0px 48px;
+    }
+}
