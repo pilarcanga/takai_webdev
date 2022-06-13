@@ -1,8 +1,5 @@
 .takai {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
+    @include flex;
     width: 100%;
 }
 
@@ -11,15 +8,12 @@
 }
 
 .news {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
+    @include flex;
     width: 50%;
 }
 
 h1 {
-    color: black;
+    color: map-get($map: $colors, $key:text-color);
     font-weight: normal;
     font-size: 48px;
     line-height: 55px;
@@ -29,7 +23,7 @@ h1 {
 }
 
 p { 
-    color:  black;
+    color: map-get($map: $colors, $key:text-color);
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;

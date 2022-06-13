@@ -4,12 +4,9 @@
 }
 
 .eventos {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  
+    @include flex;
     width: 100%;
-    background-color: #f6aa85;
+    background-color: map-get($map: $colors, $key:featured-section-color);
 }
 
 .box__image--large {
@@ -17,31 +14,32 @@
     height: 288px;
     width: 428px;
 
-    &__title--destacado {
-        background-color: #fde7da;
-        border-radius: 40px;
-        height: 72px;
-        width: 202px;
-        color: black;
+    &__title {
+        color: map-get($map: $colors, $key:text-color);
         font-weight: bold;
         font-size: 20px;
         line-height: 24px;
         font-family: open sans;
         text-transform: capitalize;
         padding: 0px 48px;
+    
+        &--destacado {
+            @extend .box__title;
+            background-color: map-get($map: $colors, $key:outstanding-title-color);
+            border-radius: 40px;
+            height: 72px;
+            width: 202px;
+        }
     }
 }
 
 .insta {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
+    @include flex;
     width: 100%;
 }
 
 p { 
-    color:  black;
+    color: map-get($map: $colors, $key:text-color);
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;

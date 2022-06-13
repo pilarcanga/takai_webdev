@@ -4,15 +4,12 @@
 }
 
 .insumos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
+    @include flex;
     width: 100%;
 }
 
 .box__conteiner {
-    background-color: #fde7da;
+    background-color: map-get($map: $colors, $key:outstanding-color);
     border-radius: 40px;
     height: 612px;
     width: 432px;
@@ -24,7 +21,7 @@
     }
 
     &__title {
-        color: black;
+        color: map-get($map: $colors, $key:text-color);
         font-weight: bold;
         font-size: 20px;
         line-height: 24px;
@@ -34,7 +31,7 @@
     }
 
     &__description{
-        color:  black;
+        color: map-get($map: $colors, $key:text-color);
         font-weight: normal;
         font-size: 14px;
         line-height: 16px;

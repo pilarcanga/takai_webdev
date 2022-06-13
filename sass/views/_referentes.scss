@@ -4,13 +4,8 @@
 }
 
 .referentes {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
+    @include flex;
     width: 100%;
-
-    background-image: url(../IMGS/mancha\ 3\ referentes.png);
 }
 
 .box__image {
@@ -19,11 +14,11 @@
     width: 432px;
 
     &__title {
-        background-color: #fde7da;
+        background-color: map-get($map: $colors, $key:outstanding-color);
         border-radius: 40px;
         height: 72px;
         width: 202px;
-        color: black;
+        color: map-get($map: $colors, $key:text-color);
         font-weight: bold;
         font-size: 20px;
         line-height: 24px;
@@ -33,7 +28,7 @@
     }
 
     &__description{
-        color:  black;
+        color: map-get($map: $colors, $key:text-color);
         font-weight: normal;
         font-size: 14px;
         line-height: 16px;
@@ -45,7 +40,7 @@
 }
 
 h2 {
-    color: black;
+    color: map-get($map: $colors, $key:text-color);
     font-weight: normal;
     font-size: 32px;
     line-height: 36px;
@@ -54,22 +49,19 @@ h2 {
 }
 
 .reseña {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
+    @include flex;
     width: 100%;
 }
 
 .box__conteiner--notrounded {
-    background-color: #fde7da;
+    background-color: map-get($map: $colors, $key:outstanding-color);
     height: 612px;
     width: 890px;
 }
 
 .text__list {
     list-style-type: none;
-    color:  black;
+    color: map-get($map: $colors, $key:text-color);
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
